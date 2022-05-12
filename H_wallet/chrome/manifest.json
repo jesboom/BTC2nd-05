@@ -1,0 +1,26 @@
+{
+    "name": "하모니카 지갑",
+    "description": "하모니 블록체인 지갑 하모니카 월렛",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+      },
+      "permissions": ["storage"],
+      "action": {
+        "default_popup": "/pages/popup.html",
+        "default_icon": {
+          "16": "/images/harmonica.png",
+          "32": "/images/n32.png",
+          "48": "/images/n48.png",
+          "128": "/images/n128.png"
+        },
+        "icons": {
+          "16": "/images/harmonica.png",
+          "32": "/images/n32.png",
+          "48": "/images/n48.png",
+          "128": "/images/n128.png"
+        }
+      }
+
+} 
